@@ -1,5 +1,5 @@
 //tecla Pom
-function tocaSomPom () {
+/*function tocaSomPom () {
 document.querySelector("#Som_Tecla_Pom").play();
 }
 
@@ -60,5 +60,10 @@ function tocaSomTom () {
     }
     
     document.querySelector(".tecla_Tom").onclick = tocaSomTom;
+*/
 
-     
+function tocaSomPom () {
+document.querySelector("#Som_Tecla_Pom").play();
+}  
+
+const listaDeTeclas = document.querySelectorAll('.tecla')
