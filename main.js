@@ -67,3 +67,4 @@ document.querySelector("#Som_Tecla_Pom").play();
 }  
 
 const listaDeTeclas = document.querySelectorAll('.tecla')
+listaDeTeclas[0].onclick = tocaSomPom;
